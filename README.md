@@ -1,1 +1,1 @@
-# android-design-pattenr
+# android-design-pattern
