@@ -25,5 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
         TextView textView = findViewById(R.id.message);
         textView.setText(builder.toString());
+
+        
     }
 }
