@@ -14,9 +14,10 @@
 
 並且定一要訓練哪種工程師的類別並實作interface
 
-public class FrontEndEngineerTrainingCamp implements EngineerTrainingCamp
+<p><code>public class FrontEndEngineerTrainingCamp implements EngineerTrainingCamp</code></p>
 
-public class SoftEngineerTrainingCamp implements EngineerTrainingCamp
+<p><code>public class SoftEngineerTrainingCamp implements EngineerTrainingCamp</code></p>
+
 
 這樣就可以透過不能的trainingCamp訓練出不同的工程師了。
 
