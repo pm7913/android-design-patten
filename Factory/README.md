@@ -20,3 +20,13 @@ public class SoftEngineerTrainingCamp implements EngineerTrainingCamp
 
 這樣就可以透過不能的trainingCamp訓練出不同的工程師了。
 
+結論
+
+<ul>
+<li>簡單工廠模式：工廠直接負責管理所有的產品，利用if else 或 switch case判斷式來產生產品。</li>
+<li>工廠模式：工廠提升為一個概念，實際上產生產品的是實作工廠概念的實體工廠。</li>
+</ul>
+
+
+
+
