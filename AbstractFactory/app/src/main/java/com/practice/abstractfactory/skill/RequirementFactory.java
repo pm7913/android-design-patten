@@ -1,5 +1,6 @@
 package com.practice.abstractfactory.skill;
 
-public interface SkillFactory {
+public interface RequirementFactory {
+    Device buyDevice();
     Skill learnSkill();
 }

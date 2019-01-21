@@ -1,19 +1,16 @@
 package com.practice.abstractfactory;
 
-import com.practice.abstractfactory.skill.EquipmentFactory;
-import com.practice.abstractfactory.skill.FrontEndEngineerEquipmentFactory;
-import com.practice.abstractfactory.skill.FrontEndEngineerSkillFactory;
-import com.practice.abstractfactory.skill.SkillFactory;
+import com.practice.abstractfactory.skill.RequirementFactory;
+import com.practice.abstractfactory.skill.FrontEndEngineerRequirementFactory;
 
 public class FrontEndEngineerTrainingCamp implements EngineerTrainingCamp {
-    private EquipmentFactory mEquipmentFactory = new FrontEndEngineerEquipmentFactory();
-    private SkillFactory mSkillFactory = new FrontEndEngineerSkillFactory();
+    private RequirementFactory mRequirementFactory = new FrontEndEngineerRequirementFactory();
 
     @Override
     public Engineer trainEngineer() {
         Engineer engineer = new FrontEndEngineer();
-        engineer.setDevice(mEquipmentFactory.buyDevice());
-        engineer.setSkill(mSkillFactory.learnSkill());
+        engineer.setDevice(mRequirementFactory.buyDevice());
+        engineer.setSkill(mRequirementFactory.learnSkill());
         return engineer;
     }
 }
