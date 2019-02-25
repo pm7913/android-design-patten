@@ -1,4 +1,21 @@
-# android-design-pattern
+# Description
 
+#### Visitor
 
-The practice project for android design pattern
+Visitor pattern 是一種將邏輯運算的部份與對象結構分離抽開的一種pattern
+
+而這些對象（如：Folder, File）必須實作accept這個方法，這是用來被受訪的方法
+
+而訪問者是一個接口必須實作visit這個方法，
+
+而visit這個方法可以根據不同的對象進而執行不同的事情
+
+這個pattern主要可以遍歷整個對象，
+
+對每一個元素都實施accept方法，在每一個元素的accept方法中回調訪問者的visit方法，
+
+從而使訪問者得以處理對象結構的每一個元素。
+
+我們可以針對對象結構設計不同的實在的訪問者類來完成不同的操作，
+
+進而達到邏輯運算與對象結構分離抽開。
