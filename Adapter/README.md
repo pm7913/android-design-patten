@@ -9,6 +9,7 @@
 Adapter主要又細分兩種模式
 
 1.類別Adapter
+
 2.物件Adapter
 
 在範例中ClassAdaptor是屬於類別Adapter
