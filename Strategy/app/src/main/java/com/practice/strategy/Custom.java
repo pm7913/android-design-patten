@@ -18,7 +18,7 @@ public class Custom {
         }
     }
 
-    public void showFestival() {
-        mFestival.activities();
+    public String showFestival() {
+        return mFestival.activities();
     }
 }
